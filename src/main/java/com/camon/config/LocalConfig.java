@@ -20,7 +20,7 @@ public class LocalConfig extends CommonConfig {
     @Bean
     public JedisConnectionFactory connectionFactory() {
         JedisConnectionFactory connectionFactory = new JedisConnectionFactory();
-        connectionFactory.setHostName("52.78.200.185");
+        connectionFactory.setHostName("127.0.0.1");
         connectionFactory.setPort(5000);
         connectionFactory.setPassword("foobared");
         return connectionFactory;
